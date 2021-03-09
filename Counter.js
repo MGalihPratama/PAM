@@ -23,6 +23,7 @@ const Counter = () => {
         </View>
     )
 }
+
 const styles = StyleSheet.create({
     foto : {
         width : 100,
