@@ -16,6 +16,7 @@ describe('actions', () => {
             type : type.KURANG,
             data : undefined
         }
+        
         expect(action.kurangCounter()).toEqual(expectedAction)
     })
 })
