@@ -4,6 +4,7 @@ const initData = {
     counter:0
 }
 
+
 export const reducerCounter = (state = initData, action) => {
     switch(action.type){
         case TAMBAH:
